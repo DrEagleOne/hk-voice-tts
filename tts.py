@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 
 class CantoneseTTS:
-    def __init__(self, default_voice="zh-HK-HiuMaanNeural", default_rate="+25%", default_output_dir="audio"):
+    def __init__(self, default_voice="zh-HK-HiuMaanNeural", default_rate="+20%", default_output_dir="audio"):
         self.voice = default_voice
         self.rate = default_rate
         self.default_output_dir = default_output_dir
